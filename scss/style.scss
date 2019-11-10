@@ -1,0 +1,21 @@
+
+
+
+.box{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 100%;
+}
+
+.btn{
+    background: $primaryColor;
+    max-width: 100px;
+    padding: 0 1em;
+
+    &:hover{
+        @include buttonHover;
+    }
+}
